@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import SearchBar from '../components/SearchBar'
-
+import yelp from '../api/uelp';
 
 const SearchScreen = () => {
     const [ term , setTerm ] = useState('');
