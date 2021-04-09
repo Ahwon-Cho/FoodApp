@@ -23,7 +23,7 @@ export default () => {
 
 // call searchAPi when compoenet
 // is first render
-userEffect(() => {
+useEffect(() => {
     searchApi('pasta');
 }, []);
 

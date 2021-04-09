@@ -9,7 +9,7 @@ const ResultsList = () => {
     )
 };
 
-const styles = Stylesheet.create ({
+const styles = StyleSheet.create ({
 
 });
 
