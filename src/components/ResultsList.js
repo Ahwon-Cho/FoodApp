@@ -5,6 +5,7 @@ const ResultsList = ({ title}) => {
     return (
         <View>
             <Text style={styles.title}>{title}</Text>
+            <Text>Results: {ResultsList.length}</Text>
         </View>
     )
 };
